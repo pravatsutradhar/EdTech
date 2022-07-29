@@ -21,14 +21,27 @@
 @media (min-width: 1400px) { }
 
 
-/* // `xs` returns only a ruleset and no media query
-// ... { ... } */
 
-/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { }
 
-/* // `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {  }
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+
+
+
+
+
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+    .course-text.ps-4.pe-2 h4 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+ }
+
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
@@ -50,10 +63,29 @@
     ul.navbar-nav li:last-child {
         border-bottom: 0;
     }
+
+
+
+
+    .course-text.ps-4.pe-2 h4 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+
  }
 
-/* // `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {  }
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  
+    .course-text.ps-4.pe-2 {
+        padding: 30px;
+    }
 
-/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {  }
+   
+}
+
+/* // `xs` returns only a ruleset and no media query
+// ... { ... } */
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { }
