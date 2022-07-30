@@ -45,3 +45,9 @@ h2.display-3.text-white {
 .course-text.ps-4.pe-2 h4 {
     font-size: 22px;
 }
+
+/* Explore Section Start */
+.ex-bg {
+    background: rgba(244, 250, 253, 1);
+}
+
