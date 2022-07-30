@@ -98,6 +98,10 @@
         padding: 30px;
     }
 
+    .faqs-wrapper.w-75.m-auto.py-5 {
+        width: inherit !important;
+    }
+
    
 }
 
